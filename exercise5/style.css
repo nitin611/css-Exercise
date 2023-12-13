@@ -1,0 +1,90 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: black;
+
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: pink;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    padding: 15px;
+    z-index: 1000; 
+    
+}
+.logo{
+margin-left: -250px;
+}
+.nav-items {
+    list-style: none;
+    gap: 30px;
+    display: flex;
+    margin: 0; /* Remove default margin for the list */
+}
+
+.nav-items li {
+    margin-right: 25px; /* Adjust the margin between navigation items */
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: #fff; /* Set the color of the navigation text */
+}
+
+
+.hero-section {
+    background-color: green; /* Background color for the hero section */
+    display: flex;
+    justify-content: space-between;
+    padding: 20px; /* Adjust padding as needed */
+    height: 100vh;
+}
+
+.leftdiv {
+    background-color: #e8bf57; /* Background color for the left div */
+    padding: 20px; /* Add padding as needed */
+    max-height: 50vh;
+    max-width: 40vw;
+    margin:100px 50px 20px 10px;
+}
+
+.rightdiv {
+    background-color: #64aaf5; /* Background color for the right div */
+    padding: 20px; /* Add padding as needed */
+    max-width: 40vw;
+    max-height: 50vh;
+    margin:100px 50px 20px 10px;
+
+}
+.rounded-section {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 10px ;
+    margin: 40px ; 
+   height: 100px;
+}
+.rounded-section:p{
+    text-align: center;
+    color: white;
+}
+.spacer {
+    height: 20px; 
+}
+.footer {
+    
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    
+    width: 100%;
+}
